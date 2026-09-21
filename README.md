@@ -1,163 +1,253 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>History of Hip Hop</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>History of Hip Hop</h1>
+    <header class="site-header">
+        <div class="container py-4">
+            <h1 class="text-center">History of Hip Hop</h1>
 
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="page2.html">Hip Hop Through the Years</a>
-        </nav>
+            <nav class="text-center mt-3" aria-label="Main navigation">
+                <a class="btn btn-outline-light mx-1" href="index.html">Home</a>
+                <a class="btn btn-outline-light mx-1" href="page2.html">
+                    Hip Hop Through the Years
+                </a>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="container py-5">
 
-        <section id="history" class="content-box">
-            <h2>The Beginning of Hip Hop</h2>
+        <!-- Beginning of Hip Hop -->
+        <section id="history" class="card shadow-sm mb-4">
+            <div class="card-body p-4">
 
-            <p>
-                Hip hop began in the Bronx in New York City during the 1970s.
-                It gave people a way to express themselves through music,
-                dancing, and art.
-            </p>
+                <h2 class="card-title">The Beginning of Hip Hop</h2>
 
-            <p>
-                Early hip hop included DJs, MCs, breakdancers, and graffiti
-                artists. These different forms of expression helped create
-                the culture we know as hip hop today.
-            </p>
+                <p class="card-text">
+                    Hip hop began in the Bronx in New York City during the 1970s.
+                    It gave people a way to express themselves through music,
+                    dancing, and art.
+                </p>
 
-            <img
-                class="hip-hop-image"
-                src="images/hiphop.jpg"
-                alt="Musician performing on stage in front of an audience"
-                width="500"
-            >
+                <p class="card-text">
+                    Early hip hop included DJs, MCs, breakdancers, and graffiti
+                    artists. These different forms of expression helped create
+                    the culture we know as hip hop today.
+                </p>
+
+                <img
+                    class="img-fluid rounded hip-hop-image"
+                    src="images/hiphop.jpg"
+                    alt="Musician performing on stage in front of an audience"
+                    width="500"
+                >
+
+            </div>
         </section>
 
-        <section class="content-box">
-            <h2>The Four Elements of Hip Hop</h2>
+        <!-- Four Elements -->
+        <section class="card shadow-sm mb-4">
+            <div class="card-body p-4">
 
-            <ul>
-                <li>DJing</li>
-                <li>MCing</li>
-                <li>Breakdancing</li>
-                <li>Graffiti Art</li>
-            </ul>
+                <h2 class="card-title">The Four Elements of Hip Hop</h2>
+
+                <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item">DJing</li>
+                    <li class="list-group-item">MCing</li>
+                    <li class="list-group-item">Breakdancing</li>
+                    <li class="list-group-item">Graffiti Art</li>
+                </ul>
+
+            </div>
         </section>
 
-        <section class="content-box">
-            <h2>The Growth of Hip Hop</h2>
+        <!-- Growth of Hip Hop -->
+        <section class="card shadow-sm mb-4">
+            <div class="card-body p-4">
 
-            <ol>
-                <li>Hip hop began in the Bronx during the 1970s.</li>
-                <li>Hip hop became more popular during the 1980s.</li>
-                <li>Rap became a major part of popular music during the 1990s.</li>
-                <li>Hip hop continues to influence music and culture today.</li>
-            </ol>
+                <h2 class="card-title">The Growth of Hip Hop</h2>
+
+                <ol class="mt-3">
+                    <li>Hip hop began in the Bronx during the 1970s.</li>
+                    <li>Hip hop became more popular during the 1980s.</li>
+                    <li>Rap became a major part of popular music during the 1990s.</li>
+                    <li>Hip hop continues to influence music and culture today.</li>
+                </ol>
+
+            </div>
         </section>
 
     </main>
-    <footer>
-        <p>
-            <a href="page2.html">Read about hip hop through the years</a>
-        </p>
-    </footer>
 
-</body>
+    <footer class="site-footer">
+        <div class="container text-center py-4">
+
+            <p class="mb-3">
+                Learn more about how hip hop developed over time.
+            </p>
+
+            <a class="btn btn-light" href="page2.html">
+                Read About Hip Hop Through the Years
+            </a>
+
+        </div>
+    </footer>
+    </body>
 </html>
-/* Main website styles */
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hip Hop Through the Years</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container py-4">
+
+            <h1 class="text-center">Hip Hop Through the Years</h1>
+
+            <nav class="text-center mt-3" aria-label="Main navigation">
+                <a class="btn btn-outline-light mx-1" href="index.html">
+                    Home
+                </a>
+
+                <a class="btn btn-outline-light mx-1" href="page2.html">
+                    Hip Hop Through the Years
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="container py-5">
+
+        <!-- Bootstrap grid -->
+        <div class="row g-4">
+
+            <!-- Hip Hop Through the Years -->
+            <section id="history" class="col-12 col-md-6">
+
+                <div class="card shadow-sm h-100">
+                    <div class="card-body p-4">
+
+                        <h2 class="card-title">
+                            Hip Hop Through the Years
+                        </h2>
+
+                        <p class="card-text">
+                            Hip hop continued to change as new artists and
+                            styles became popular. Different regions of the
+                            United States developed their own sounds and
+                            influenced hip hop.
+                        </p>
+
+                        <p class="card-text">
+                            During the 1990s and 2000s, hip hop became an
+                            important part of mainstream music. Artists used
+                            rap to tell stories, discuss their experiences,
+                            and represent their communities.
+                        </p>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Hip Hop Today -->
+            <section id="modern" class="col-12 col-md-6">
+
+                <div class="card shadow-sm h-100">
+                    <div class="card-body p-4">
+
+                        <h2 class="card-title">
+                            Hip Hop Today
+                        </h2>
+
+                        <p class="card-text">
+                            Today, hip hop is one of the most popular forms
+                            of music around the world. Modern artists continue
+                            to combine rap with different sounds and styles.
+                        </p>
+
+                        <p class="card-text">
+                            Hip hop has also influenced fashion, language,
+                            dance, and other areas of popular culture.
+                        </p>
+
+                        <img
+                            class="img-fluid rounded hip-hop-image mt-3"
+                            src="images/hiphop.jpg"
+                            alt="Musician performing on stage in front of an audience"
+                            width="500"
+                        >
+
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container text-center py-4">
+
+            <p class="mb-3">
+                Explore the history and cultural influence of hip hop.
+            </p>
+
+            <a class="btn btn-light" href="index.html">
+                Return to the Hip Hop History Homepage
+            </a>
+/* Custom styles that work alongside Bootstrap */
 
 body {
     background-color: #f2f2f2;
     color: #222222;
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
 }
 
-h1 {
-    text-align: center;
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 26px;
-}
-
-p {
-    text-align: left;
-}
-
-/* Header and navigation */
-header {
+/* Custom header design */
+.site-header {
     background-color: #222222;
     color: #ffffff;
-    padding: 25px;
 }
 
-nav {
-    text-align: center;
-    margin-top: 15px;
-}
-
-nav a {
-    color: #ffffff;
-    margin: 0 10px;
+/* Custom heading */
+.site-header h1 {
+    font-size: 36px;
     font-weight: bold;
 }
 
-/* Main content */
-main {
-    padding: 20px;
-}
-
-/* Content sections */
-section {
-    margin-bottom: 30px;
-    padding: 20px;
-}
-
-.content-box {
-    background-color: #ffffff;
-    border: 1px solid #555555;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-/* Images */
-.hip-hop-image {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-}
-
-/* Flexbox layout */
-.flex-container {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-.flex-item {
-    flex: 1;
-    background-color: #ffffff;
-    padding: 20px;
-    border: 1px solid #555555;
-}
-
-/* Unique sections */
+/* Custom section borders */
 #history {
     border-left: 5px solid #222222;
 }
@@ -166,66 +256,50 @@ section {
     border-left: 5px solid #555555;
 }
 
-/* Footer */
-footer {
+/* Custom image styling */
+.hip-hop-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Custom footer */
+.site-footer {
     background-color: #222222;
     color: #ffffff;
-    text-align: center;
-    padding: 20px;
 }
 
-footer a {
-    color: #ffffff;
-    font-weight: bold;
-}
-
-/* Keyboard focus */
+/* Keyboard accessibility */
 a:focus {
     outline: 3px solid #ffcc00;
     outline-offset: 3px;
 }
 
-/* Responsive design for smaller screens */
+/* Small-screen adjustments */
 @media (max-width: 768px) {
 
-    body {
-        font-size: 15px;
-    }
-
-    h1 {
+    .site-header h1 {
         font-size: 28px;
     }
 
-    h2 {
-        font-size: 22px;
-    }
-
     main {
-        padding: 10px;
-    }
-
-    section {
-        padding: 15px;
-    }
-
-    /* Stack Flexbox sections on smaller screens */
-    .flex-container {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav a {
-        display: block;
-        margin: 10px 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .hip-hop-image {
         width: 100%;
+        height: auto;
     }
+}.flex-container {
+    display: flex;
+    gap: 20px;
 }
+<div class="row g-4">
+<section class="col-12 col-md-6">
 git add .
-git commit -m "Improve website accessibility"
+git commit -m "Add Bootstrap to HTML pages"
 git add .
-git commit -m "Add responsive mobile layout"
+git commit -m "Add Bootstrap grid and components"
 git add .
-git commit -m "Fix accessibility audit issues"
+git commit -m "Refactor custom CSS"
