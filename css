@@ -1,1 +1,98 @@
+/* Main styles for the hip-hop history website */
 
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 26px;
+}
+
+p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #222;
+    color: white;
+    padding: 25px;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/* Reusable content box class */
+.content-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Image class */
+.hip-hop-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Flexbox container */
+.flex-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Flexbox content */
+.flex-item {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Unique section IDs */
+#history {
+    border-left: 5px solid #222;
+}
+
+#modern {
+    border-left: 5px solid #555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
