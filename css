@@ -251,3 +251,67 @@ a:focus {
         width: 100%;
     }
 }
+
+body {
+    background-color: #f2f2f2;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+/* Custom header design */
+.site-header {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+/* Custom heading */
+.site-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Custom section borders */
+#history {
+    border-left: 5px solid #222222;
+}
+
+#modern {
+    border-left: 5px solid #555555;
+}
+
+/* Custom image styling */
+.hip-hop-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Custom footer */
+.site-footer {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+/* Keyboard accessibility */
+a:focus {
+    outline: 3px solid #ffcc00;
+    outline-offset: 3px;
+}
+
+/* Small-screen adjustments */
+@media (max-width: 768px) {
+
+    .site-header h1 {
+        font-size: 28px;
+    }
+
+    main {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .hip-hop-image {
+        width: 100%;
+        height: auto;
+    }
+}
