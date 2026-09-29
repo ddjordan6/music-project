@@ -315,3 +315,6 @@ a:focus {
         height: auto;
     }
 }
+git add .
+git commit -m "Fix CSS styling and Flexbox layout"
+git push
