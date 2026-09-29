@@ -239,5 +239,5 @@ footer a:hover {
 }
 
 git add .
-git commit -m "Improve website accessibility and responsive styling"
+git commit -m "Add Bootstrap styling and refactor custom CSS"
 git push origin main
