@@ -241,3 +241,20 @@ footer a:hover {
 git add .
 git commit -m "Add Bootstrap styling and refactor custom CSS"
 git push origin main
+.artists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.artists div {
+    width: 250px;
+    text-align: center;
+}
+
+.artists img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
