@@ -1,7 +1,3 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="./css/style.css">
-
-
 * {
     box-sizing: border-box;
 }
@@ -15,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 h1 {
     color: #ffffff;
@@ -41,7 +36,6 @@ p {
     margin-bottom: 18px;
 }
 
-
 .site-header {
     background-color: #171717;
     color: #ffffff;
@@ -54,7 +48,6 @@ p {
     color: #ffffff;
     margin-bottom: 0;
 }
-
 
 main {
     max-width: 1100px;
@@ -70,7 +63,6 @@ section {
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
-
 
 .hip-hop-section {
     background-color: #ffffff;
@@ -102,7 +94,6 @@ section {
     min-width: 0;
 }
 
-
 #history {
     background-color: #ffffff;
     color: #222222;
@@ -115,7 +106,6 @@ section {
     border-top: 5px solid #222222;
 }
 
-
 ul,
 ol {
     padding-left: 30px;
@@ -125,7 +115,6 @@ ol {
 li {
     margin-bottom: 8px;
 }
-
 
 a {
     color: #805500;
@@ -138,13 +127,11 @@ a:hover {
     text-decoration: underline;
 }
 
-
 a:focus-visible,
 button:focus-visible {
     outline: 3px solid #005fcc;
     outline-offset: 4px;
 }
-
 
 footer {
     background-color: #171717;
@@ -163,9 +150,25 @@ footer a:hover {
     color: #ffffff;
 }
 
+.artists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.artists div {
+    width: 250px;
+    text-align: center;
+}
+
+.artists img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 @media (max-width: 700px) {
-
     .flex-container {
         flex-direction: column;
         gap: 15px;
@@ -202,7 +205,6 @@ footer a:hover {
     }
 }
 
-
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -211,25 +213,4 @@ footer a:hover {
         animation-duration: 0.01ms !important;
         transition-duration: 0.01ms !important;
     }
-}
-
-git add .
-git commit -m "Add Bootstrap styling and refactor custom CSS"
-git push origin main
-.artists {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.artists div {
-    width: 250px;
-    text-align: center;
-}
-
-.artists img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
 }
